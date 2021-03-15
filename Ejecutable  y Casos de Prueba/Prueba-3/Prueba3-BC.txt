@@ -1,0 +1,8 @@
+7
+R1: Si aniosDosTres Entonces Experimentado, FC=0.5
+R2: Si aniosMayorTres Entonces Experimentado, FC=0.9
+R3: Si conduccionDosTres Entonces Cansado, FC=0.5
+R4: Si conduccionMayorTres Entonces Cansado, FC=1
+R5: Si Experimentado y viajeNoSolo Entonces causarAccidente, FC=-0.5
+R6: Si Cansado Entonces causarAccidente, FC=0.5
+R7: Si conductorJov y beberAlcohol Entonces causarAccidente, FC=0.7

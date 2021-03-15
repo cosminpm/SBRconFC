@@ -1,0 +1,8 @@
+5
+ojosAzules, FC=0.6
+colorBlanco, FC=0.2
+castanio, FC=0.9
+pecas, FC=0.82
+alto, FC=0.7
+Objetivo
+genProg

@@ -1,0 +1,8 @@
+7
+R1: Si ojosAzules y colorBlanco y castanio Entonces genP, FC=0.4
+R2: Si castanio o pecas Entonces genP, FC=0.87
+R3: Si alto Entonces genMM, FC=-0.2
+R4: Si alto Entonces genPM, FC=0.67
+R5: Si genMM y genPM Entonces genProg, FC=0.9
+R6: Si genP Entonces genProg, FC=0.02
+R7: Si genP Entonces genProg, FC=0.7

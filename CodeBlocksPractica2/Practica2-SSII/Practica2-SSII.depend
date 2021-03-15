@@ -1,0 +1,69 @@
+# depslib dependency file v1.0
+1606933438 source:c:\users\cosmi\desktop\folders\00 info\01 acutal\01 ssii\02 practicas\p2\codeblockspractica2\practica2-ssii\main.cpp
+	<fstream>
+	<iostream>
+	<string.h>
+	<string_view>
+	"bhClass.h"
+	"bcClass.h"
+	"AlgoritmoSBR.h"
+
+1606761919 c:\users\cosmi\desktop\folders\00 info\01 acutal\01 ssii\02 practicas\p2\codeblockspractica2\practica2-ssii\bhclass.h
+	<fstream>
+	<iostream>
+	<string.h>
+	<string_view>
+	<map>
+
+1608219870 source:c:\users\cosmi\desktop\folders\00 info\01 acutal\01 ssii\02 practicas\p2\codeblockspractica2\practica2-ssii\bhclass.cpp
+	<string>
+	<fstream>
+	<iostream>
+	<map>
+	"bhClass.h"
+
+1608120074 source:c:\users\cosmi\desktop\folders\00 info\01 acutal\01 ssii\02 practicas\p2\codeblockspractica2\practica2-ssii\bcclass.cpp
+	<string>
+	<fstream>
+	<iostream>
+	<map>
+	"bcClass.h"
+
+1606933790 source:c:\users\cosmi\desktop\folders\00 info\01 acutal\01 ssii\02 practicas\p2\codeblockspractica2\practica2-ssii\reglaclass.cpp
+	<string>
+	<fstream>
+	<iostream>
+	<map>
+	<vector>
+	"bcClass.h"
+
+1606773134 c:\users\cosmi\desktop\folders\00 info\01 acutal\01 ssii\02 practicas\p2\codeblockspractica2\practica2-ssii\bcclass.h
+	<fstream>
+	<iostream>
+	<string.h>
+	<string_view>
+	<map>
+	<vector>
+	"bhClass.h"
+
+1606569403 c:\users\cosmi\desktop\folders\00 info\01 acutal\01 ssii\02 practicas\p2\codeblockspractica2\practica2-ssii\reglaclass.h
+	<fstream>
+	<iostream>
+	<string.h>
+	<string_view>
+	<vector>
+	<map>
+
+1608121927 source:c:\users\cosmi\desktop\folders\00 info\01 acutal\01 ssii\02 practicas\p2\codeblockspractica2\practica2-ssii\algoritmosbr.cpp
+	"bhClass.h"
+	"bcClass.h"
+	<string>
+	<map>
+	<vector>
+	<iostream>
+
+1606775249 c:\users\cosmi\desktop\folders\00 info\01 acutal\01 ssii\02 practicas\p2\codeblockspractica2\practica2-ssii\algoritmosbr.h
+	"bcClass.h"
+	"bhClass.h"
+	<iostream>
+

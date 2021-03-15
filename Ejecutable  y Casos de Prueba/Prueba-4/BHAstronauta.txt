@@ -1,0 +1,6 @@
+3
+preparados, FC=1
+plenaForma, FC=0.9
+siguenProtocolo, FC=0.8
+Objetivo
+escapar

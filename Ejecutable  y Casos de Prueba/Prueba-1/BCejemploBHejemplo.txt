@@ -1,0 +1,31 @@
+Fichero de salida.
+Nombre de la BC: BCejemplo
+Nombre de la BH: BHejemplo
+Objetivo: I
+CASO-3: Regla: (G con tipo: N)-->H
+	FC: 0.6 * max(0, -0.3)
+ = 0
+CASO-1: Regla: (D E F con tipo: Y)-->C
+	min(0.8 0.7 0.9 )
+Resultado: 0.7
+CASO-3: Regla: (D E F con tipo: Y)-->C
+	FC: 0.5 * max(0, 0.7)
+ = 0.35
+CASO-1: Regla: (A B con tipo: O)-->C
+	max(0.4 0.6 )
+Resultado: 0.6
+CASO-3: Regla: (A B con tipo: O)-->C
+	FC: 0.7 * max(0, 0.6)
+ = 0.42
+CASO-2:
+ 	Regla: (A B con tipo: O)-->C
+	Regla: (D E F con tipo: Y)-->C
+	Resultado del Calculo: 0.623
+CASO-1: Regla: (C H con tipo: O)-->I
+	max(0 0.623 )
+Resultado: 0.623
+CASO-3: Regla: (C H con tipo: O)-->I
+	FC: 0.65 * max(0, 0.623)
+ = 0.40495
+
+FC Meta:0.40495

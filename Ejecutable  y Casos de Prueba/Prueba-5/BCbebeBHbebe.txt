@@ -1,0 +1,45 @@
+Fichero de salida.
+Nombre de la BC: BCbebe
+Nombre de la BH: BHbebe
+Objetivo: genProg
+CASO-1: Regla: (castanio pecas con tipo: O)-->genP
+	max(0.82 0.9 )
+Resultado: 0.9
+CASO-3: Regla: (castanio pecas con tipo: O)-->genP
+	FC: 0.87 * max(0, 0.9)
+ = 0.783
+CASO-1: Regla: (ojosAzules colorBlanco castanio con tipo: Y)-->genP
+	min(0.9 0.2 0.6 )
+Resultado: 0.2
+CASO-3: Regla: (ojosAzules colorBlanco castanio con tipo: Y)-->genP
+	FC: 0.4 * max(0, 0.2)
+ = 0.08
+CASO-2:
+ 	Regla: (ojosAzules colorBlanco castanio con tipo: Y)-->genP
+	Regla: (castanio pecas con tipo: O)-->genP
+	Resultado del Calculo: 0.80036
+CASO-3: Regla: (genP con tipo: N)-->genProg
+	FC: 0.7 * max(0, 0.80036)
+ = 0.560252
+CASO-3: Regla: (genP con tipo: N)-->genProg
+	FC: 0.02 * max(0, 0.80036)
+ = 0.0160072
+CASO-3: Regla: (alto con tipo: N)-->genPM
+	FC: 0.67 * max(0, 0.7)
+ = 0.469
+CASO-3: Regla: (alto con tipo: N)-->genMM
+	FC: -0.2 * max(0, 0.7)
+ = -0.14
+CASO-1: Regla: (genMM genPM con tipo: Y)-->genProg
+	min(0.469 -0.14 )
+Resultado: -0.14
+CASO-3: Regla: (genMM genPM con tipo: Y)-->genProg
+	FC: 0.9 * max(0, -0.14)
+ = 0
+CASO-2:
+ 	Regla: (genMM genPM con tipo: Y)-->genProg
+	Regla: (genP con tipo: N)-->genProg
+	Regla: (genP con tipo: N)-->genProg
+	Resultado del Calculo: 0.567291
+
+FC Meta:0.567291

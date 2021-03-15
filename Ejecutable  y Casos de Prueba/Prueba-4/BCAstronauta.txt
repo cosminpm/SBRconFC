@@ -1,0 +1,5 @@
+4
+R1: Si preparados Entonces maniobrar, FC=0.9
+R2: Si mecanismos Entonces escapar, FC=0.95
+R3: Si siguenProtocolo Entonces mecanismos, FC=0.7
+R4: Si plenaForma y maniobrar Entonces escapar, FC=0.97

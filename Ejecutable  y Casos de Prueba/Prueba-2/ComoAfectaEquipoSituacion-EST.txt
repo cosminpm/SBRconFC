@@ -1,0 +1,20 @@
+Fichero de salida.
+Nombre de la BC: ComoAfectaEquipo
+Nombre de la BH: Situacion-EST
+Objetivo: ganaEST
+CASO-3: Regla: (les2pivEST con tipo: N)-->ganaEST
+	FC: -0.6 * max(0, 1)
+ = -0.6
+CASO-3: Regla: (publicoEqui con tipo: N)-->ganaEST
+	FC: -0.55 * max(0, 0.35)
+ = -0.1925
+CASO-3: Regla: (arbMod con tipo: N)-->ganaEST
+	FC: 0.4 * max(0, 1)
+ = 0.4
+CASO-2:
+ 	Regla: (arbMod con tipo: N)-->ganaEST
+	Regla: (publicoEqui con tipo: N)-->ganaEST
+	Regla: (les2pivEST con tipo: N)-->ganaEST
+	Resultado del Calculo: -0.461667
+
+FC Meta:-0.461667

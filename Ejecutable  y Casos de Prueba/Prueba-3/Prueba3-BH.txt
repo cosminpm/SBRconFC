@@ -1,0 +1,11 @@
+8
+conductorJov, FC=0.4
+aniosDosTres, FC=1
+conduccionDosTres, FC=-1
+viajeSolo, FC=1
+viajeNoSolo, FC=-1
+beberAlcohol, FC=0.5
+aniosMayorTres, FC=-1
+conduccionMayorTres, FC=1
+Objetivo
+causarAccidente
